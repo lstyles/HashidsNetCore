@@ -1,8 +1,13 @@
-# Hashids [![Build Status](https://travis-ci.org/ullmark/hashids.net.svg?branch=master)](https://travis-ci.org/ullmark/hashids.net)
+# Hashids
 A small .NET package to generate YouTube-like hashes from one or many numbers. 
 Use hashids when you do not want to expose your database ids to the user.
 
 [http://www.hashids.org/net/](http://www.hashids.org/net/)
+
+## Credits
+
+This library is based on Hashids.NET by Markus Ullmark - https://github.com/ullmark/hashids.net and it incorporates changes made by 
+Harold Martinez - https://github.com/ullmark/hashids.net/pull/16 - to make it compatible with .NET Core. It's been a long time since those changes were proposed, but not merged, and needing this for a personal project, I've decided to release it as a nuget package.
 
 ## What is it?
 
@@ -28,14 +33,14 @@ All integers need to be greater than or equal to zero.
 ## Installation
 Install the package with [NuGet][]
 
-    Install-Package hashids.net
+    Install-Package Hashids.CoreCLR
 
 ## Usage
 
 ### Import namespace
 
 ```C#
-using HashidsNet;
+using HashidsNetCore;
 ```
 
 ### Encoding one number
