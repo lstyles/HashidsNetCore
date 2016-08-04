@@ -35,7 +35,7 @@ Install the package with [NuGet][]
 ### Import namespace
 
 ```C#
-using HashidsNet;
+using HashidsNetCore;
 ```
 
 ### Encoding one number
