@@ -1,3 +1,6 @@
+# UPDATE
+The original library has now been updated to support .NET Core - https://github.com/ullmark/hashids.net.
+
 # Hashids
 A small .NET package to generate YouTube-like hashes from one or many numbers. 
 Use hashids when you do not want to expose your database ids to the user.
